@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="702.0" style="-fx-background-color: #ADFF2F;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EnterWind.EnterWind">
+    <children>
+        <AnchorPane layoutX="-4.0" layoutY="87.0" prefHeight="313.0" prefWidth="706.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <Text fill="GREENYELLOW" layoutX="222.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вы вошли !!!">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="Image1" fitHeight="159.0" fitWidth="188.0" layoutX="285.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+        </AnchorPane>
+        <Label layoutX="195.0" layoutY="24.0" prefHeight="29.0" prefWidth="332.0" text="Саламалексус" textFill="#0040ff">
+            <font>
+                <Font name="KaiTi" size="27.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
